@@ -16,7 +16,6 @@
 
 - Report Bugs: 
     - If you found any bug, please open an issue and let us know the problem.
-
 - Suggestions:
     - If you are a developer and have an awesome idea to make this code better then open an issue and let us know how can we
       improve it.
