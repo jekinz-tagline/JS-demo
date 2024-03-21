@@ -21,7 +21,7 @@
       improve it.
 
 <h2>Instructions</h2>
-1. Fork this repository
+<p>1. Fork this repository</p>
 2. Clone the forked repository
 3. Add your contributions (code or documentation)
 4. Commit and push
