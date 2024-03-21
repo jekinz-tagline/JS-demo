@@ -25,4 +25,8 @@
 <p>2. Clone the forked repository </p>
 <p>3. Add your contributions (code or documentation) </p>
 <p>4. Commit and push </p>
+<<<<<<< HEAD
 <p>5. Wait for pull request to be merged </p>
+=======
+<p>5. Wait for pull request to be merged </p>
+>>>>>>> a4e97d6 (README update)
