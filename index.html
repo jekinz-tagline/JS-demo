@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <form id="survey-form" onsubmit="return validateForm()">
+      <caption>
+        <h2 style="position: relative; left: 25%">--: Survey Form :--</h2>
+      </caption>
+      <div>
+        <p id="Enter_Name">Enter Your Name</p>
+        <label for="fname"><strong>Name :</strong></label>
+        <input
+          id="fname"
+          type="text"
+          name="fname"
+          placeholder="Enter your name"
+        />
+      </div>
+      <br />
+      <div>
+        <p id="Enter_Email">Enter Your Email</p>
+        <label for="email"><strong>Email :</strong></label>
+        <input
+          id="email"
+          type="text"
+          name="email"
+          placeholder="Enter your email"
+        />
+      </div>
+      <br />
+      <div>
+        <p id="Select_DOB">Enter Your DOB</p>
+        <label for="dob"><strong>DOB :</strong></label>
+        <input id="dob" type="date" name="dob" />
+      </div>
+      <br />
+      <div>
+        <p id="Select_Radio">Choose Any One option</p>
+        <strong>Gender :</strong>
+        <input type="radio" name="gender" id="male" value="Male" />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="Female" />
+        <label for="female">Female</label>
+      </div>
+      <br />
+      <div id="hobbies">
+        <p id="Check_Checkbox">Select Atleast One option</p>
+        <strong>Hobbies :</strong>
+        <input type="checkbox" name="hobbies" id="travel" value="Travelling" />
+        <label for="travel">Travelling</label>
+        <input type="checkbox" name="hobbies" id="read" value="Reading" />
+        <label for="read">Reading</label>
+        <input type="checkbox" name="hobbies" id="write" value="Writing" />
+        <label for="write">Writing</label>
+        <input type="checkbox" name="hobbies" id="cricket" value="Cricket" />
+        <label for="cricket">Cricket</label>
+      </div>
+      <div class="Style_Of_Locats">
+        <p id="Select_Country">Select Country</p>
+        <label for="country"><strong>Country :</strong></label>
+        <select name="country" id="country">
+          <option>-- Select Country --</option>
+        </select>
+      </div>
+      <br />
+      <div class="Style_Of_Locats">
+        <p id="Select_State">Select State</p>
+        <label for="state"><strong>State :</strong></label>
+        <select name="state" id="state">
+          <option>-- Select State --</option>
+        </select>
+      </div>
+      <br />
+      <div class="Style_Of_Locats">
+        <p id="Select_City">Select City</p>
+        <label for="city"><strong>City :</strong></label>
+        <select name="city" id="city">
+          <option>-- Select City --</option>
+        </select>
+      </div>
+      <br />
+      <button class="fBtn" id="btn" type="submit">Submit</button>
+      <button class="fBtn" id="cnclBtn" type="button">Cancel</button>
+    </form>
+
+    <form method="post" id="search-frm" autocomplete="off">
+      <label for="search">Search By Name : </label>
+      <input
+        type="text"
+        name="search"
+        id="search"
+        placeholder="Enter Name Here"
+        onkeyup="searchFunction()"
+      />
+      <button id="searchBtn" class="searchBtns" type="button">Search</button>
+      <button id="clearBtn" class="searchBtns" type="button">
+        Clear Search</button
+      ><br /><br />
+      <select name="sort" id="sort" onchange="sortFunction()">
+        <option>-- Select For Sorting --</option>
+        <option value="ASC">ASC</option>
+        <option value="DESC">DESC</option>
+      </select>
+    </form>
+
+    <table id="tbl">
+      <thead>
+        <tr>
+          <th>UID</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>DOB</th>
+          <th>Age</th>
+          <th>Gender</th>
+          <th>hobbies</th>
+          <th>Country</th>
+          <th>State</th>
+          <th>City</th>
+          <th>Created Time</th>
+          <th>Delete</th>
+          <th>Update</th>
+        </tr>
+      </thead>
+      <tbody id="tbl-body"></tbody>
+    </table>
+    <script src="/JS Files/app.js"></script>
+    <script src="/JS Files/locats.js"></script>
+    <script src="/JS Files/store_data.js"></script>
+    <script src="/JS Files/update_data.js"></script>
+    <script src="/JS Files/search_sort.js"></script>
+  </body>
+</html>

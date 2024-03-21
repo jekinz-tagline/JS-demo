@@ -1,0 +1,100 @@
+form {
+  display: inline-block;
+  position: relative;
+  left: 750px;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: antiquewhite;
+}
+
+div > input {
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 2px;
+}
+
+#hobbies {
+  border-bottom: 1px dotted black;
+  padding-bottom: 5px;
+}
+
+.Style_Of_Locats {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 3px;
+}
+
+.fBtn {
+  background-color: lightskyblue;
+  position: relative;
+  left: 40%;
+  font-size: 15px;
+}
+
+.searchBtns {
+  background-color: lightskyblue;
+  font-size: 15px;
+}
+
+#alldata {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: rgb(156, 154, 154);
+  font-weight: bold;
+}
+
+table,
+tr {
+  position: relative;
+  margin-top: 10px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  border: 2px solid black;
+  background-color: rgb(126, 97, 255);
+  color: white;
+  padding: 5px;
+  width: 200px;
+}
+
+td {
+  border-left: 2px solid black;
+  padding: 5px;
+  background-color: rgb(203, 191, 255);
+}
+
+.delBtn {
+  background-color: rgb(255, 0, 0);
+  color: white;
+}
+
+.updBtn {
+  background-color: rgb(0, 165, 0);
+  color: white;
+}
+
+#cnclBtn,
+#ubtn {
+  display: none;
+}
+
+#Enter_Name,
+#Enter_Email,
+#Select_DOB,
+#Select_Radio,
+#Check_Checkbox,
+#Select_Country,
+#Select_State,
+#Select_City {
+  margin: 0px;
+  display: none;
+  color: red;
+}
