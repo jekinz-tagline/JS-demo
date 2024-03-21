@@ -1,4 +1,4 @@
-# JS-demo
+# JavaScript CRUD Operations
 
 <h2>Overview<h2>
 
