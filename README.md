@@ -21,8 +21,8 @@
       improve it.
 
 <h2>Instructions</h2>
-<p>1. Fork this repository</p>
-2. Clone the forked repository
-3. Add your contributions (code or documentation)
-4. Commit and push
-5. Wait for pull request to be merged
+<p>1. Fork this repository </p>
+<p>2. Clone the forked repository </p>
+<p>3. Add your contributions (code or documentation) </p>
+<p>4. Commit and push </p>
+<p>5. Wait for pull request to be merged </p>
